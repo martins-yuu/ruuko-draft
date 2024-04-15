@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root,
+  dialog {
+    @apply select-none selection:bg-secondary selection:text-secondary-content;
+
+    scrollbar-width: none;
+  }
+
+  img {
+    @apply pointer-events-none;
+  }
+}
