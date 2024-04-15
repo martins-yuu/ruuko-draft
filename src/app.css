@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root,
+  dialog {
+    @apply scrollbar-none select-none overflow-hidden selection:bg-secondary selection:text-secondary-content;
+  }
+
+  img {
+    @apply pointer-events-none;
+  }
+}
+
+@layer utilities {
+  .scrollbar-none::-webkit-scrollbar {
+    @apply hidden;
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "arrowParens": "avoid",
+  "bracketSameLine": false,
+  "endOfLine": "lf",
+  "experimentalTernaries": true,
+  "htmlWhitespaceSensitivity": "ignore",
+  "overrides": [
+    {
+      "files": "*.svelte",
+      "options": {
+        "parser": "svelte"
+      }
+    }
+  ],
+  "plugins": ["prettier-plugin-svelte", "prettier-plugin-tailwindcss"],
+  "printWidth": 100,
+  "semi": false,
+  "singleAttributePerLine": true,
+  "singleQuote": true,
+  "svelteAllowShorthand": true,
+  "svelteStrictMode": false,
+  "tabWidth": 2,
+  "tailwindFunctions": ["tv"],
+  "trailingComma": "all",
+  "useTabs": false
+}
